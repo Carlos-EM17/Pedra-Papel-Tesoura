@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jókenpo</title>
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body> 
+    <h1>-Sua Jogada-</h1>
+    <div class="limitImg">
+        <img class = "imagem" id = "imagemPedra" src="imagens/pedra.png" onclick="computador('1')">
+        <img class = "imagem" id = "imagemPapel" src="imagens/papel.png" onclick="computador('2')">
+        <img class = "imagem" id = "imagemTesoura" src="imagens/tesoura.png" onclick="computador('3')">
+    </div>
+    <hr>
+    <h1>-Jogada computador-</h1>
+    <div class="computador">
+        <img id="pedraRobo" class = "imagem" style="display: none;" src="imagens/pedra.png">
+        <img id="papelRobo" class = "imagem" style="display: none;"  src="imagens/papel.png">
+        <img id="tesouraRobo" class = "imagem" style="display: none;"  src="imagens/tesoura.png">
+    </div>
+    <p id="mensagemFinal"></p>
+    <script src="script.js"></script>
+</body>
+</html>
