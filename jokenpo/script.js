@@ -49,5 +49,4 @@ function computador(jogada){
         tesouraRobo.style.display = "block";
         mensagemFinal.textContent = "Empatou";
     }
-    reiniciar.style.display = 'block';
 }
